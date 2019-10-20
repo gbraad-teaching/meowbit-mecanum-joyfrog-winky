@@ -78,7 +78,7 @@ let x = 0
 let y = 0
 radio.setGroup(1)
 joyfrog.joyfrog_init()
-radio.setGroup(2)
+
 basic.forever(function () {
     joyStick()
     if (input.buttonIsPressed(Button.A)) {
